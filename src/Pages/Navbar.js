@@ -10,7 +10,7 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-neutral rounded-box w-52">
-        <li><Link to={'/all-task'}>All Tasks</Link></li>
+        <li><Link to={'/all-task'}>To do list</Link></li>
         <li><Link to={'/completed-task'}>Completed Task</Link></li>
         <li><Link to={'/pending-task'}>Pending Task</Link></li>
         <li><Link to={'/calender'}>Calender</Link></li>
